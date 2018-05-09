@@ -51,18 +51,18 @@ class PostForm extends Component {
     };
 
     render() {
-        const { data, errors, loading } = this.state;
+        const { data, errors } = this.state;
 
         return (
-            <form onSubmit={this.onSubmit}>
+            <form className="create-post-form" onSubmit={this.onSubmit}>
                 <FormGroup validationState={errors.title ? 'error' : null}>
                     <ControlLabel>Title</ControlLabel>
-                    <FormControl onChange={this.onChange} value={this.state.data.title} name="title" />
+                    <FormControl onChange={this.onChange} value={data.title} name="title" />
                     {errors.title && <InlineError text={errors.title} />}
                 </FormGroup>
                 <FormGroup validationState={errors.text ? 'error' : null}>
                     <ControlLabel>Text</ControlLabel>
-                    <FormControl onChange={this.onChange} value={this.state.data.text} componentClass="textarea" name="text" />
+                    <FormControl onChange={this.onChange} value={data.text} componentClass="textarea" name="text" />
                     {errors.text && <InlineError text={errors.text} />}
                 </FormGroup>
                 <Button type="submit">Create</Button>

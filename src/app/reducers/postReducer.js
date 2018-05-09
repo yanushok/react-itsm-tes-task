@@ -5,15 +5,7 @@ export function post(state = {}, action) {
         case postConstants.POST_FETCHED: {
             return {
                 ...state,
-                ...action.post
-            };
-        }
-        case postConstants.POST_CREATED: {
-            return {
-                id: action.id,
-                title: action.title,
-                text: action.text,
-                timestamp: action.timestamp,
+                ...action.data
             };
         }
         default:

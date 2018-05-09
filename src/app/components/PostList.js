@@ -40,7 +40,7 @@ class PostList extends Component {
 
     render() {
         const posts = this.props.posts.map(post => (
-            <PostItem key={post.id} id={post.id} title={post.title} text={post.text} />
+            <PostItem key={post.id} post={post} />
         ));
 
         return (
@@ -58,7 +58,8 @@ class PostList extends Component {
 }
 
 PostList.propTypes = {
-
+    posts: PropTypes.array.isRequired,
+    fetchPosts: PropTypes.func.isRequired,
 };
 
 export default connect((state) => ({

@@ -32,21 +32,39 @@
     },
     {
       "title": "Ключевые кадры",
-      "text": "й",
+      "text": "Morbi dictum diam mauris, eu auctor ipsum venenatis vitae. Ut lacinia est purus, sed blandit massa vestibulum vitae. Sed quis dui non est ornare tristique semper a urna. In convallis, ante eu luctus ultrices, justo nisi vulputate nulla, placerat feugiat turpis elit non ante. Cras vel urna egestas, condimentum purus eu, porta augue. Nulla convallis mauris sit amet magna fringilla lobortis. Curabitur fringilla massa nisl, non maximus tellus commodo non.",
       "timestamp": "Tue May 08 2018 19:01:00 GMT+0300 (Беларусь (зима))",
       "id": 6
     },
     {
       "title": "Кнопка с плавным изменением цвета",
-      "text": "йцуйцуйцу",
+      "text": "Vivamus ornare congue libero, ac pulvinar metus ornare ac. Aenean congue sapien ligula, et finibus felis tristique vitae. Fusce sodales mattis massa, vel lobortis magna bibendum quis. Etiam iaculis vehicula augue, sit amet blandit quam finibus sed. Pellentesque et dictum ante. Maecenas vitae tempor enim. Duis vitae fermentum orci. Maecenas dui massa, venenatis eu pretium vitae, porta vitae lectus. Nullam vitae arcu in elit cursus rutrum.",
       "timestamp": "Tue May 08 2018 19:01:15 GMT+0300 (Беларусь (зима))",
       "id": 7
     },
     {
       "title": "Использование функции времени",
-      "text": "211654654",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet ornare felis. Nunc lobortis odio nec leo sagittis tristique. Integer condimentum tortor justo, non tempus dolor pretium id. Sed in sapien nunc. In eu felis purus. Integer porta pulvinar mi, sit amet lobortis est sollicitudin ac. Duis porttitor, ipsum quis commodo rhoncus, diam est placerat augue, eu pulvinar ante augue eu leo.",
       "timestamp": "Tue May 08 2018 19:29:53 GMT+0300 (Беларусь (зима))",
       "id": 8
+    },
+    {
+      "title": "Использование функции времени",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet ornare felis. Nunc lobortis odio nec leo sagittis tristique. Integer condimentum tortor justo, non tempus dolor pretium id. Sed in sapien nunc. In eu felis purus. Integer porta pulvinar mi, sit amet lobortis est sollicitudin ac. Duis porttitor, ipsum quis commodo rhoncus, diam est placerat augue, eu pulvinar ante augue eu leo.",
+      "timestamp": "Tue May 08 2018 19:29:53 GMT+0300 (Беларусь (зима))",
+      "id": 9
+    },
+    {
+      "title": "Использование функции времени",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet ornare felis. Nunc lobortis odio nec leo sagittis tristique. Integer condimentum tortor justo, non tempus dolor pretium id. Sed in sapien nunc. In eu felis purus. Integer porta pulvinar mi, sit amet lobortis est sollicitudin ac. Duis porttitor, ipsum quis commodo rhoncus, diam est placerat augue, eu pulvinar ante augue eu leo.",
+      "timestamp": "Tue May 08 2018 19:29:53 GMT+0300 (Беларусь (зима))",
+      "id": 10
+    },
+    {
+      "title": "Использование функции времени",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet ornare felis. Nunc lobortis odio nec leo sagittis tristique. Integer condimentum tortor justo, non tempus dolor pretium id. Sed in sapien nunc. In eu felis purus. Integer porta pulvinar mi, sit amet lobortis est sollicitudin ac. Duis porttitor, ipsum quis commodo rhoncus, diam est placerat augue, eu pulvinar ante augue eu leo.",
+      "timestamp": "Tue May 08 2018 19:29:53 GMT+0300 (Беларусь (зима))",
+      "id": 11
     }
   ]
 }

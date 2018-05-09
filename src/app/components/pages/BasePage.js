@@ -1,4 +1,5 @@
 import React from 'react';
+import { Panel } from 'react-bootstrap';
 
 import TopNavigation from '../Navigation/TopNavigation';
 
@@ -7,10 +8,12 @@ const BasePage = (props) => (
         <TopNavigation />
         
         {props.children}
-
-        <footer className="footer">
+        
+        <Panel>
+            <Panel.Body>
             <p>&copy; {new Date().getFullYear()} Company, Inc.</p>
-        </footer>
+            </Panel.Body>
+        </Panel>
     </div>
 );
 

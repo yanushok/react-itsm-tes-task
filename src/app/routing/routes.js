@@ -5,16 +5,13 @@ import { ConnectedRouter } from "react-router-redux";
 import { Provider, connect } from "react-redux";
 import PropTypes from "prop-types";
 
-import HomePage from "../components/pages/HomePage";
-import CreatePostPage from '../components/pages/CreatePostPage';
+import HomePage from "../components/Pages/HomePage";
+import CreatePostPage from '../components/Pages/CreatePostPage';
+import PostPage from '../components/Pages/PostPage';
 
 export const history = createHistory();
 
 class Routes extends Component {
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         const { store } = this.props;
 
@@ -27,7 +24,7 @@ class Routes extends Component {
                         <Switch>
                             <Route exact path="/posts" component={HomePage} />
                             <Route exact path="/posts/create" component={CreatePostPage} />
-                            {/* <Route exact path="/posts/:id" component={PostsList} /> */}
+                            <Route exact path="/posts/:id" component={PostPage} />
                         </Switch>
                     </div>
                 </ConnectedRouter>

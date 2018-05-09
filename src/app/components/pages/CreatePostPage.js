@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 
 import PostForm from '../Forms/PostForm';
@@ -6,10 +7,6 @@ import BasePage from './BasePage';
 import { createPost } from "../../actions/posts";
 
 class CreatePostPage extends Component {
-    constructor(props) {
-        super(props);
-    }
-
     addPost = post => this.props.createPost(post).then(() => this.props.history.push("/"));
 
     _pageContent = () => {
@@ -23,6 +20,10 @@ class CreatePostPage extends Component {
             <BasePage children={this._pageContent()} />
         );
     }
+}
+
+CreatePostPage.propTypes = {
+    createPost: PropTypes.func.isRequired,
 }
 
 export default connect(null, { createPost })(CreatePostPage);

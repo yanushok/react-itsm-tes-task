@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Navbar, Nav, NavItem, NavDropdown, MenuItem, Glyphicon } from 'react-bootstrap';
+import { Navbar, Nav, NavItem, Glyphicon } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 import { NavLink } from "react-router-dom";
 
@@ -20,9 +20,11 @@ class TopNavigation extends Component {
                     </Navbar.Brand>
                 </Navbar.Header>
                 <Nav pullRight>
-                    <NavItem onClick={this.goToCreatePostPage}>
-                        <Glyphicon glyph="plus" /> Create Post
-                    </NavItem>
+                    <LinkContainer activeClassName="" to="/posts/create">
+                        <NavItem>
+                            <Glyphicon glyph="plus" /> Create Post
+                        </NavItem>
+                    </LinkContainer>
                 </Nav>
             </Navbar>
         );

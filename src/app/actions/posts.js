@@ -11,11 +11,6 @@ const postFetched = data => ({
     data
 });
 
-const postCreated = data => ({
-    type: postConstants.POST_CREATED,
-    data
-});
-
 export const fetchPosts = (page = 1, limit = 5) => dispatch =>
     api.posts
     .fetchAll(page, limit)
@@ -28,5 +23,4 @@ export const getPost = (id) => dispatch =>
 
 export const createPost = data => dispatch =>
     api.posts
-    .create(data)
-    .then(post => dispatch(postCreated(post)));
+    .create(data);

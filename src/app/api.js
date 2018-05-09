@@ -6,8 +6,6 @@ export default {
             const totalCount = res.headers.get('X-Total-Count');
             if (totalCount) {
                 window.localStorage.setItem('total-count', totalCount);
-            } else {
-                window.localStorage.removeItem('total-count');
             }
         
             return res;

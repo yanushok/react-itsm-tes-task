@@ -1,0 +1,13 @@
+.create-post-form {
+    margin-bottom: 20px;
+}
+
+.create-post-form textarea {
+    resize: vertical;
+    min-height: 50px;
+    max-height: 300px;
+}
+
+.pagination {
+    cursor: pointer;
+}
